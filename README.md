@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         textfield = UITextField(frame: CGRect(x: 50, y: 50, width: 300, height: 50))
         textfield.placeholder = "Example"
         textfield.delegate = FALTextFieldMask.getInstance()
-        textfield.mask = "(NN) NNNN-NNNN"
+        textfield.textMask = "(NN) NNNN-NNNN"
         
         view.addSubview(textfield)
 
