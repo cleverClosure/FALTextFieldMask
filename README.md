@@ -1,5 +1,5 @@
 # FALTextFieldMask
-Simple Text Field Mask write in Swift
+Simple Text Field Mask written in Swift
 
 ## Example
 
